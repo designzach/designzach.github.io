@@ -1,0 +1,44 @@
+body{
+    background-color: #E2C044;
+    font-family: 'Lato', sans-serif;
+    margin-left: 3em;
+}
+
+h1{
+    font-family: 'Eater', cursive;
+    font-size: 7em;
+    text-align: center;
+    color: #20BF55;
+    line-height: 1em;
+}
+
+h2{
+    font-family: 'Eater';
+    font-size: 4em;
+    color: #4C4B63;
+}
+
+#ingredients{
+    background-image: linear-gradient(#DE541E, #E2C044);
+}
+
+#directions{
+   background-image: linear-gradient(#DE541E, #E2C044);
+}
+
+p{
+    font-family: 'Eater';
+    font-size: 2em;
+    text-align: center;
+}
+
+h3{
+    font-family: 'lato';
+    font-size: 2em;
+    text-decoration: underline purple;
+    text-transform: uppercase;
+}
+
+li{
+   list-style-type: square;
+}
