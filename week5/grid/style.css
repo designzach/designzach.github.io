@@ -1,0 +1,99 @@
+body{
+    background-color: red ;
+    margin: 0;
+} 
+
+.header{
+    grid-area:header;
+    background-color: #2E5EAA;
+    margin-right: 50%;
+}
+
+.item1{
+    grid-area:item1;
+    background-color: #EA8C55;
+}
+
+.item2{
+    grid-area:item2;
+    background-color: #FFF3B0;
+    margin-left: 60%;
+    margin-top: 113px;
+}
+
+.item3{
+    grid-area:item3;
+    background-color: #931F1D;
+    margin-right: 60%;
+    margin-bottom: 200px;
+}
+
+.item4{
+    grid-area:item4;
+    background-color: #FFF3B0;
+}
+
+.item5{
+    grid-area:item5;
+    background-color: #931F1D;
+}
+
+.item6{
+    grid-area:item6;
+    background-color: #EA8C55;
+    margin-right: 50%;
+}
+
+.item7{
+    grid-area:item7;
+    background-color: #FFF3B0;
+    margin-bottom: 50px;
+    margin-left: 60%;
+}
+
+.item8{
+    grid-area:item8;
+    background-color: #931F1D;
+}
+
+.item8{
+    grid-area:item8;
+    background-color: #EA8C55;
+}
+
+.item8{
+    grid-area:item8;
+    background-color: #2E5EAA;
+}
+
+.item9{
+    grid-area:item9;
+    background-color: #EA8C55;
+    margin-right: 90%;
+    margin-top: 60px;
+}
+
+.item10{
+    grid-area:item10;
+    background-color: #931F1D;
+}
+
+.footer{
+    grid-area:footer;
+    background-color: #FFF3B0;
+    margin-left: 50%;
+}
+
+
+.grid-container{
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas:
+    'header header header header'
+    'item1 item2 item3 item4'
+    'item5 item5 item6 item6'
+    'item7 item8 item9 item10'
+    'footer footer footer footer';
+    background-color: black;
+    grid-gap: 10px;
+}

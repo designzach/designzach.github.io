@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+    margin: .5%;
+    margin-top: 10px;
+} 
+
+header{
+    min-height: 100px;
+    background-color: #ea8c55;
+    width: 99%;
+    margin: .5%;
+}
+
+#col-1{
+    min-height: 150px;
+    background-color: #fff3b0;
+    width: 15%;
+    float: left;
+    clear: both;
+    margin: .5%;
+}
+
+#col-2{
+    min-height: 150px;
+    background-color: #931f1d;
+    width: 50%;
+    float: left;
+    margin: .5%;
+}
+
+#col-3{
+    min-height: 150px;
+    background-color: black;
+    width: 32%;
+    float: left;
+    margin: .5%;
+}
+
+#col-4{
+    min-height: 200px;
+    background-color: #2E5EAA;
+    width: 60%;
+    float: left;
+    clear: both;
+    margin: .5%;
+}
+
+#col-5{
+    min-height: 200px;
+    background-color: #fff3b0;
+    width: 38%;
+    float: left;
+    margin: .5%;
+}
+
+#col-6{
+    min-height: 50px;
+    background-color: #fff3b0;
+    width: 99%;
+    float: left;
+    clear: both;
+    margin: .5%;
+}
+
+#col-7{
+    min-height: 150px;
+    background-color: black;
+    width: 20%;
+    float: left;
+    clear: both;
+    margin: .5%;
+}
+
+#col-8{
+    min-height: 150px;
+    background-color: #931f1d;
+    width: 67%;
+    float: left;
+    margin: .5%;
+}
+
+#col-9{
+    min-height: 150px;
+    background-color: #2E5EAA;
+    width: 10%;
+    float: left;
+    margin: .5%;
+}
+
+#col-10{
+    min-height: 300px;
+    background-color: #fff3b0;
+    width: 38%;
+    float: left;
+    margin: .5%;
+}
+
+#col-11{
+    min-height: 300px;
+    background-color: #ea8c55;
+    width: 60%;
+    float: left;
+    margin: .5%;
+}
+
+footer{
+    min-height: 50px;
+    background-color: #2E5EAA;
+    width: 99%;
+    float: left;
+    clear: both;
+    margin: .5%;
+}
