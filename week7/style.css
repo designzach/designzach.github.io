@@ -1,0 +1,72 @@
+body{ font-family: 'prompt', sans-serif;
+    font-size: 18px;
+    background-color: #fff7eb;
+    margin-top: 100px;
+}
+
+/*TYPOGRAPHY*/
+
+h1{ font-size: 3rem;
+    font-weight: 700;
+    color: #A77E58;
+    letter-spacing: 1.5px;
+}
+
+h2{ font-size: 2rem;
+    font-weight: 500;
+    color: #e08a00;
+}
+
+p{ font-weight: 300; 
+}
+
+a{ color:#A77E58;
+   text-decoration: none;
+}
+
+a:hover{ color: #e08a00
+}
+
+/*LAYOUT*/
+
+#container{ width: 80%;
+            margin: auto;
+            border-left: 3px solid #A77E58;
+            padding-left: 3%;
+}
+
+img{ width: 50%;
+     float: right;
+     padding: 10px;
+}
+
+p{  text-align: left;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #A77E58;
+    width: 30%;
+    padding-bottom: 50px;
+}
+
+h1{ line-height: 1em;
+    text-align: left;
+    margin: auto;
+}
+
+#ingredients{ background-color: #fff7eb;
+}
+
+#directions{ background-color: #fff7eb;
+             margin-top: 50px;
+   
+}
+
+li{ list-style-type: square;
+}
+
+footer{ margin: auto;
+        text-align: center;
+}
+
+ol{
+    margin-bottom: 50px;
+}
